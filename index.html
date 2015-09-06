@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Setting title-->
+  <title>TacoBill</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--linking the css file-->
+  <link href="css/styles.css" rel="stylesheet">
+<!--linking the js file-->
+  <script src="js/scripts.js"></script>
+</head>
+ <!--page front and body-->
+<body>
+  <div data-role="page" data-control-title="Home" id="page1">
+      <div data-theme="" data-role="header">
+          <h1>
+              Taco Bill
+          </h1>
+      </div>
+      <!--declare bottuns and navigations --> 
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 288px; height: 200px" src="img/taco-bill-logo.png">
+          </div>
+          <a data-role="button" href="#page2">
+              Menu
+          </a>
+          <a data-role="button" href="#page3">
+              Restaurant Info
+          </a>
+          <a data-role="button" href="#page4">
+              Feedback
+          </a>
+          <a data-role="button" href="#page5">
+              Developer info
+          </a>
+      </div>
+      <!--menu page-->
+      <div data-theme="d" data-role="footer" data-position="fixed">
+          <h3>
+              Ashkan
+          </h3>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Menu" id="page2">
+      <div data-theme="a" data-role="header">
+          <h3>
+              Menu
+          </h3>
+      </div>
+      <div data-role="content">
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Appetizer
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Pancakes
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Cake-Chocolate
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page8" data-transition="slide">
+                      Sachertorte
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page9" data-transition="slide">
+                      Palatschinke
+                  </a>
+              </li>
+          </ul>
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Main
+              </li>
+              <li data-theme="c">
+                  <a href="#page11" data-transition="slide">
+                      kuskus
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page10" data-transition="slide">
+                      Briskete
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page12" data-transition="slide">
+                      Thai Curry Chicken
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page14" data-transition="slide">
+                      Taco Bill Special
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      burger, curly-fries &amp; salad
+                  </a>
+              </li>
+          </ul>
+          <!--Drinks-->
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Drinks
+              </li>
+              <li data-theme="c">
+                  <a href="#page17" data-transition="slide">
+                      Coffee
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page16" data-transition="slide">
+                      Tea
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <h3>
+              Ashkan
+          </h3>
+      </div>
+  </div>
+    <!--page 3 setup -->
+  <div data-role="page" data-control-title=" Restaurant Info" id="page3">
+      <div data-role="content">
+        <!--image-->
+          <div style="" data-controltype="image">
+              <img style="width: 298px; height: 200px" src="img/front.jpg">
+          </div>
+            <!--description-->
+          <div data-controltype="textblock">
+              <p>
+                  Taco Bill Mexican Restaurants are located around Australia, mainly in
+                  Victoria. With 37 locally owned and operated restaurants we have great
+                  Mexican food made with real flavour and real ingredients fresh dail
+              </p>
+              <div class="_mr">
+                  <span class="_QUg">
+                      Phone:
+                  </span>
+                  <span>
+                      (03) 9852 0087
+                  </span>
+              </div>
+              <div class="_mr">
+                  <span>
+                      &nbsp;
+                  </span>
+              </div>
+              <div class="lud-hourslabel">
+                  <strong>
+                      Hours:
+                  </strong>
+              </div>
+              <div class="vk_bk h_n" style="display: inline;" data-ved="0CJYBEKE-KAIwEGoVChMI4If49JSlxwIVIRqmCh3tdAnz"
+              data-mce-style="display: inline;">
+                  <span class="_bC" style="display: inline;" data-mce-style="display: inline;">
+                      <span class="_CK _TX">
+                          Open today
+                      </span>
+                      ·
+                      <a class="fl">
+                          <span>
+                              5:30 am – 9:00 pm
+                          </span>
+                      </a>
+                  </span>
+                  <br data-mce-bogus="1">
+              </div>
+              <div class="vk_bk h_n" style="display: inline;" data-ved="0CJYBEKE-KAIwEGoVChMI4If49JSlxwIVIRqmCh3tdAnz"
+              data-mce-style="display: inline;">
+                  <span class="_bC" style="display: inline;" data-mce-style="display: inline;">
+                      <span>
+                          &nbsp;
+                      </span>
+                  </span>
+              </div>
+          </div>
+          <div id="googlemapsjs1" class="google-map" style="width: 300px; height: 50px; margin-left: auto; margin-right: auto">
+          </div>
+          <script type="text/javascript">
+                  window.CodiqaControls && window.CodiqaControls.register('googlemaps', 'googlemapsjs1', {
+              ready: function(control) {
+  
+                  control.options = {
+                      zoom: 14,
+                      mapTypeId: google.maps.MapTypeId.ROADMAP
+                  };
+  
+                  control.el = document.getElementById(control._id);
+                  control.map = new google.maps.Map(control.el, control.options);
+  
+                  var geocoder = new google.maps.Geocoder();
+                  geocoder.geocode({
+                      'address': 'Madison, WI'
+                  }, function(results, status) {
+                      if (status == google.maps.GeocoderStatus.OK) {
+  
+                          var marker = new google.maps.Marker({
+                              map: control.map,
+                              position: results[0].geometry.location
+                          });
+                          control.center = results[0].geometry.location;
+                          control.map.setCenter(control.center);
+                      }
+                  });
+  
+              }
+          });
+          </script>
+      </div>
+        <!--page 4 setup (feedback)-->
+  </div>
+  <div data-role="page" data-control-title="Feedback" id="page4">
+      <div data-role="content">
+        <!--image setup-->
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 200px" src="img/feedback-heads1.png">
+          </div>
+            <!--setup labels-->
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <label for="textinput1">
+                  Name
+              </label>
+              <input name="" id="textinput1" placeholder="" value="" type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <label for="textinput2">
+                  E-mail
+              </label>
+              <input name="" id="textinput2" placeholder="" value="" type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <label for="textarea1">
+                  Type your feedback:
+              </label>
+              <textarea name="" id="textarea1" placeholder=""></textarea>
+          </div>
+          <input value="Submit" type="submit">
+      </div>
+
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <h3>
+              Ashkan
+          </h3>
+      </div>
+  </div>
+    <!--page 5 setup- Developer info-->
+  <div data-role="page" data-control-title="Developer Info" id="page5">
+      <div data-theme="a" data-role="header">
+          <h3>
+              Developer Info
+          </h3>
+      </div>
+      <div data-role="content">
+        <!--pic setup-->
+          <div style="" data-controltype="image">
+              <img style="width: 298px; height: 288px" src="img/developer-info.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p style="text-align: center;">
+                  <span style="font-family: comic sans ms,sans-serif;">
+                      <b>
+                          Ashkan Fazel Rastegar
+                          <br>
+                      </b>
+                  </span>
+              </p>
+              <p style="text-align: center;">
+                  <span style="font-family: comic sans ms,sans-serif;">
+                      <b>
+                          212212074
+                      </b>
+                  </span>
+              </p>
+              <p style="text-align: center;">
+                  <span style="font-family: comic sans ms,sans-serif;">
+                      <b>
+                          SIT313
+                          <br>
+                          Mobile Computing
+                          <br>
+                      </b>
+                  </span>
+              </p>
+              <p style="text-align: center;">
+                  <span style="font-family: comic sans ms,sans-serif;">
+                      <b>
+                          <br>
+                      </b>
+                  </span>
+              </p>
+          </div>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+          <h3>
+              Ashkan
+          </h3>
+      </div>
+  </div>
+    <!--page 6 setup-->
+  <div data-role="page" data-control-title="Cake 1" id="page6">
+      <div data-role="content">
+        <!--image setup-->
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/1280px-sachertorte_dsc03027.jpg.JPG">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <br border="2" cellpadding="2" cellspacing="2" align="center">
+              </p>
+              <p>
+                  Flour, Milk Solids, Instant Strach, Gums, Egg White
+                  <br mce_bogus="1">
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page7 banana and pancake-->
+  <div data-role="page" data-control-title="Pancake" id="page7">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 298px; height: 300px" src="img/1024px-banana_on_pancake.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Pancake - Milk - Egg - Banana
+                      <br>
+                  </b>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page 8 straberry on pancake-->
+  <div data-role="page" data-control-title="Sachertorte" id="page8">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/1280px-strawberry_on_pancake.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Pancake-Egg-Milk-Icecream-Strawberry - Syrup
+                      <br>
+                  </b>
+              </p>
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <br>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page 9 palatschinke-->
+  <div data-role="page" data-control-title="Palatschinke" id="page9">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 298px; height: 288px" src="img/palatschinke.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  Pancake- Egg- Syrup- Coconut powder
+                  <br>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page10 setup - briskete-->
+  <div data-role="page" data-control-title="Briskete" id="page10">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/1280px-mmm..._day_later_brisket_sauced_7831664232.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Beef BBQ- Toasted bread - Vegetables
+                      <br>
+                  </b>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page 11 koskos-->
+  <div data-role="page" data-control-title="koskos" id="page11">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 300px; height: 288px" src="img/kus-kus.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Carrote - onion- 2.5 pieces of steak - gravy
+                      <br>
+                  </b>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="thaicurry chicken" id="page12">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/maplestnolachilloutthaicurrychicken.jpg.JPG">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Thai curry Chicken-rice + cup of tea
+                      <br>
+                  </b>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page13 burger fries-->
+  <div data-role="page" data-control-title="burger,_curly_fries_and_salad"
+  id="page13">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/bar-91_burger_curly_fries_and_salad.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  Beef burger - curly fries - salad
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page 15 special-->
+  <div data-role="page" data-control-title="special t" id="page14">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/special.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <span class="mw-mmv-title">
+                      Tales of the Cocktail, New Orleans: salad w/bourbon vinagrette, bourbon
+                      glazed chicken, bourbon braised brisket, potatoes w/bourbon gravy, bread
+                      pudding w/bourbon sauce
+                  </span>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!--page 16 setup green tea-->
+  <div data-role="page" data-control-title="Tea" id="page16">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/ayataka_green_tea.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Water, Tea, Sugar
+                      <br>
+                  </b>
+              </p>
+          </div>
+      </div>
+  </div>
+  <!--page 17 setup coffee-->
+  <div data-role="page" data-control-title="Coffee" id="page17">
+      <div data-role="content">
+          <div style="" data-controltype="image">
+              <img style="width: 299px; height: 288px" src="img/1280px-cup_of_coffee_with_foam.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <b>
+                      Coffee,Milk, Sugar
+                      <br>
+                  </b>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="multimedia" id="page18">
+      <div data-role="content">
+      </div>
+  </div>
+</body>
+</html>
